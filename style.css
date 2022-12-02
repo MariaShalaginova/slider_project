@@ -115,6 +115,12 @@ h1 {
 .completed-projects-item:hover {
     color: #E3B873;
     text-decoration:underline;
+    cursor:pointer;
+}
+
+.completed-projects-item.active {
+    color: #E3B873;
+    text-decoration:underline;
 }
 
 .completed-projects-container {

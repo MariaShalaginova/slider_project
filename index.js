@@ -83,6 +83,9 @@
         console.log(num);
         sliderImages.querySelector(".active").classList.remove("active");
         sliderImages.querySelector(".n" + num).classList.add("active");
+        // подсвечивание названия проектов с включением соответсвующего слайда
+        sliderLink.querySelector(".active").classList.remove("active");
+        sliderLink.querySelector(".n" + num).classList.add("active");
         if (options.dots) {
           sliderDots.querySelector(".active").classList.remove("active");
           sliderDots.querySelector(".n" + num).classList.add("active");
